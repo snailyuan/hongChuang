@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/product/product",
+    "pages/case/case",
+    "pages/info/info"
+  ],
+  "window": {
+    "navigationBarTitleText": "西安宏创高分子修复",
+    "navigationBarBackgroundColor": "#2387aa",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF6A00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "downloadFile": 60000
+  },
+  "sitemapLocation": "sitemap.json"
+}
